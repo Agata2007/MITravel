@@ -1,3 +1,7 @@
+
+body {
+    margin: 0;
+}
 .list_1 {
     background-image: url(./img/1bc.png);
     width: 100%;
@@ -201,7 +205,7 @@
 
 .nav {
     padding-top: 56px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 a {
@@ -242,7 +246,7 @@ a {
 .div_10 {
     display: flex;
     gap: 32px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .div_10_1 {
